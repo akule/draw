@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EtchPad</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+
+	<div class="return">
+		<a href="http://www.akuladesigns.com/index.html#work">return</a>
+	</div>
+
+	<div class="notacont">
+		<button class="btn btn-default dgrd" type="submit">toggle grid</button>
+		<button class="btn btn-default gray" type="submit">toggle grayscale</button>
+		<button class="btn btn-default random" type="submit">toggle random color</button>
+		<button class="btn btn-default menu-open" type="submit">resize</button>
+		<button class="btn btn-default reset" type="submit">reset</button>
+	</div>
+	<div class="menu one hidden">
+		<strong>Grid Size</strong>
+		<div class="inputs">
+			<input type="number" id="height" class="form-control" placeholder="height">
+			<em>x</em>
+			<input type="number" id="width" class="form-control" placeholder="width">
+		</div>
+		<button class="btn btn-default cancel" type="submit">cancel</button>
+		<button class="btn btn-default regrid" type="submit">resize</button>
+	</div>
+	<div class="container">
+		<table id="grid">
+			
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.return {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  background-color: rgba(255,255,255,.6);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  z-index: 99999;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sq {
+	width: 6.25%;
+	margin: 0;
+	padding: 0;
+	background-color: darkblue;
+	float: left;
+	opacity: 1;
+}
+
+#grid {
+	border: 1px solid black;
+}
+
+.btn, .btn:hover, .btn:active {
+	outline: none !important;
+	border: 1px solid black;
+}
+
+.active { border: 1px solid black !important;}
+
+table {
+	width: 100%;
+}
+
+.hovered {
+	background-color: blue;
+}
+
+.passed {
+	background-color: purple;
+}
+
+.notacont {
+	text-align: center;
+}
+
+.btn {
+	margin: 20px 5px;
+}
+
+.menu {
+	position: fixed;
+	padding: 35px 75px;
+	z-index: 999;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	left: 50%;
+	width: 328px;
+	margin-left: -164px;
+}
+
+.form-control {
+	width: 80px;
+	display: inline-block;
+}
+
+.inputs {
+	margin: 25px 0 15px 0;
+}
+
+.regrid {
+	margin: 0;
+}
+
+.hidden {
+	display: none;
+}
